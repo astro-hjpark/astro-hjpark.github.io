@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD student
+role: Postdoctoral researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Australian National University
-    url: https://rsaa.anu.edu.au/
+  - name: CEA Paris-Saclay
+    url: https://irfu.cea.fr/dap/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'hyejin.park@anu.edu.au'
+    url: 'hyejin.park@cea.fr'
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/astro_h_park
