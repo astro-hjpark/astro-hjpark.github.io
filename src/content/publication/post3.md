@@ -1,57 +1,8 @@
 ---
-title: "Title"
-description: "Park H.-J. et al. in prep) Dust and metals in nearby dwarf galaxies: Sextans A and Sextans B"
-pubDate: "in prep"
-heroImage: "/post_img.webp"
-badge: "IN PREP"
-tags: ["rust","tokio"]
+title: "Kinematically colder HI gas as a tracer for star forming gas"
+description: "Park H.-J., et al. 2025) Atomic hydrogen (HI) dominates the mass of the cold interstellar medium, undergoing thermal condensation to form molecular gas and fuel star formation. Kinematically colder H I components, identified via kinematic decomposition of H I 21 cm data cubes, serve as a crucial transition phase between diffuse warm neutral gas and molecular hydrogen (H_2). We analyse these colder H I components by decomposing H I 21 cm data cubes of seven nearby galaxies."
+pubDate: "June 4 2025"
+heroImage: "/park2025.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer
-malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas
-pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse
-platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada
-fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea
-dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst
-quisque sagittis purus sit amet.
-
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum
-quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet.
-Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus.
-Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit
-ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt
-dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus
-arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed
-tempus urna et pharetra pharetra massa massa ultricies mi.
-
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam
-sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec.
-Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna
-fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et
-egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel
-turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra
-nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim
-praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus
-egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam
-ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor
-purus non. Amet dictum sit amet justo donec enim.
-
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut
-consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra.
-Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor
-dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor
-dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque
-eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices
-tincidunt arcu. Id cursus metus aliquam eleifend mi.
-
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus
-imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu
-cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt
-dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat
-sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida.
-Egestas integer eget aliquet nibh praesent tristique magna.
+Atomic hydrogen (H I) dominates the mass of the cold interstellar medium, undergoing thermal condensation to form molecular gas and fuel star formation. Kinematically colder H I components, identified via kinematic decomposition of H I 21 cm data cubes, serve as a crucial transition phase between diffuse warm neutral gas and molecular hydrogen (H_2). We analyse these colder H I components by decomposing H I 21 cm data cubes of seven nearby galaxies - Sextans A, NGC 6822, WLM, NGC 5068, NGC 7793, NGC 1566, and NGC 5236 - spanning metallicities (0.1 < Z/ Z⊙ < 1.0) and physical scales (53-1134 pc). Using a velocity dispersion threshold of 6 km s−1, we classify the kinematically distinct components into narrow (colder) and broad (warmer). Cross-correlation analysis between the narrow H I components and H_2 or star formation rate (SFR) surface density at different spatial scales reveals that dwarf galaxies exhibit the strongest correlation at ∼ 500-700 pc. The radially binned narrow H I fraction, fn = I_narrowHI/I_totalHI, in dwarf galaxies shows no clear trend with metallicity or SFR, while in spirals, fn is lower in inner regions with higher metallicity and SFR. We find that the data set resolution significantly impacts the results, with higher physical resolution data yielding a higher median fn, ⟨fn⟩, per galaxy. With this considered, dwarf galaxies consistently exhibit a larger fn than spiral galaxies. These findings highlight the critical role of cold H I in regulating star formation across different galactic environments and emphasize the need for high resolution H I observations to further unravel the connection between atomic-to-molecular gas conversion and galaxy evolution.
