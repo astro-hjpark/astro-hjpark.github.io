@@ -1,9 +1,9 @@
 ---
-title: "Demo Post 3"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 12 2022"
+title: "Title"
+description: "Park H.-J. et al. in prep) Dust and metals in nearby dwarf galaxies: Sextans A and Sextans B"
+pubDate: "in prep"
 heroImage: "/post_img.webp"
-badge: "Demo badge"
+badge: "IN PREP"
 tags: ["rust","tokio"]
 ---
 

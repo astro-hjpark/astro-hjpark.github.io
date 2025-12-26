@@ -5,7 +5,7 @@ import { getCollection } from "astro:content";
 import createSlug from "../../lib/createSlug"
 
 export async function getStaticPaths({ paginate }) {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("publication");
   posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   return paginate(posts, { pageSize: 10 });
 }
@@ -13,10 +13,22 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
-<BaseLayout title="Blog" sideBarActiveItemID="blog">
+<BaseLayout title="Publication" sideBarActiveItemID="publication">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Blog</div>
+    <div class="text-3xl w-full font-bold">Publication</div>
   </div>
+
+  <div>
+    Access to the ADS library via 
+    <a href="https://ui.adsabs.harvard.edu/public-libraries/NNfd214KSy6-34d0_PsxpQ" 
+     target="_blank" rel="noopener noreferrer"
+     class="underline text-blue-600 hover:text-blue-800">
+    SAO/NASA ADS Link
+    </a>
+  </div>
+  
+  <div class="mt-4 mb-4">
+
 
   {
     page.data.length === 0 ? (
@@ -32,7 +44,7 @@ const { page } = Astro.props;
               title={post.data.title}
               img={post.data.heroImage}
               desc={post.data.description}
-              url={"/blog/" + createSlug(post.data.title, post.slug)}
+              url={"/publication/" + createSlug(post.data.title, post.slug)}
               target="_self"
               badge={post.data.badge}
               tags={post.data.tags}

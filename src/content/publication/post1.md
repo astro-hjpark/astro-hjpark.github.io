@@ -1,9 +1,8 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
-tags: ["tokio"]
+title: "Park H.-J., et al. 2024) Dust-to-gas mass ratio and metallicity"
+description: "The relationship between dust-to-gas mass and gas-phase metallicity tells us how efficiently galaxies form and build dust mass as they chemically evolve, revealing the interplay between metal enrichment, dust production, and destruction processes. In this project, I worked on the spatially resolved relationship between dust-to-gas mass ratio and gas-phase metallicity in 11 nearby TYPHOON galaxies."
+pubDate: "Oct 7 2024"
+heroImage: "/park2024.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
