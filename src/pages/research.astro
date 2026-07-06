@@ -11,35 +11,47 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   
   <div>
     <div class="text-justify w-full mb-5">
-      Galaxies are gravitationally bound systems of stars, gas, dust, metals, and dark matter. Understanding the physical properties of the interstellar medium (ISM) is therefore crucial, as they regulate star formation and ultimately drive galaxy evolution.
+        Galaxies are gravitationally bound systems of stars, gas, dust, and dark matter. Understanding the physical properties of the interstellar medium (ISM), the gas and dust that fill the space between stars, is crucial, as the ISM regulates star formation and ultimately drive how galaxies evolve.
     </div>
 
     <div class="text-justify w-full mb-5">
-      The ISM, composed of gas, dust, cosmic rays, and magnetic fields, is a dynamic environment that regulates galaxy evolution through a continuous cycle.
-      (A) Diffuse, warm gas cools to form the cold neutral medium and 
-      (B) further condenses into molecular clouds dominated by H<sub>2</sub>. During this phase, dust grains enable cooling, shield the gas from radiation, and catalyze molecule formation.
-      (C) Stars form in the cold, dense cores of molecular clouds and 
-      (D) synthesize heavy elements through nuclear fusion over their lifetimes.
-      (E) Stellar winds and supernova explosions return metals and dust to the ISM, enriching the gas from which subsequent generations of stars form and driving the chemical evolution of galaxies.
+      The ISM, composed of gas, dust, cosmic rays, and magnetic fields, it evolves through a continuous cycle:
+      (A) diffuse, warm gas cools down to form the cold neutral medium;
+      (B) this gas further condenses into molecular clouds dominated by molecular hydrogen (H<sub>2</sub>), where dust grains help the gas cool, shield it from radiation, and catalyse the formation of new molecules;
+      (C) stars form within the cold, dense cores of these molecular clouds;
+      (D) over their lifetimes, stars synthesize heavy elements through nuclear fusion;
+      (E) stellar winds and supernova explosions return this enriched gas and dust to the ISM, fueling the next generation of star formation and driving the chemical evolution of galaxies. 
     </div>
 
-    <div class="py-2 flex justify-center gap-4">
-      <img src="/ISMcycle.png" alt="ISM cycle" class="w-auto h-auto rounded-lg shadow-md">
+    <div class="py-2 flex flex-col items-center gap-2">
+        <img src="/ISMcycle.png" alt="ISM cycle" class="w-auto h-auto rounded-lg shadow-md">
+        <figcaption class="text-sm text-gray-500 text-center max-w-2xl">
+            The ISM cycle, from diffuse warm gas to star formation and back. Images: WNM/CNM adapted from Marchal et al. (2019)
+        </figcaption>
     </div>
 
     <div class="text-justify w-full mb-5">
-    Galaxies in the observable universe span a wide range of sizes, luminosities, and physical properties, including stellar, gas, and dust masses, as well as metallicity. Based on their morphology, galaxies are commonly classified as early-type (elliptical), late-type (spiral), or irregular systems.
-    The Milky Way (MW), which hosts our Solar System, is a massive, metal-rich spiral galaxy with prominent spiral arms and a central bar. Late-type galaxies typically have high stellar masses, while their ISM accounts for only ~10-20% of the total baryonic mass. They are generally metal-rich (Z ~ 0.5–1 Z<sub>☉</sub>) and contain dust at roughly 1% of the gas mass, corresponding to a dust-to-gas ratio (DGR) of ~0.01. Their relatively high molecular gas content sustains ongoing star formation.
+    Galaxies in the observable universe span a wide range of sizes, luminosities, and physical properties, including stellar, gas, and dust masses, as well as metal abundance. Based on their morphology, galaxies are commonly classified as early-type (elliptical), late-type (spiral), or irregular systems.
+    </div>
+
+    <div class="text-justify w-full mb-5">
+        The Milky Way (MW), which hosts our Solar System, is a massive, metal-rich spiral galaxy with prominent spiral arms and a central bar. Late-type galaxies like the MW typically have high stellar masses, while their ISM accounts for only ~10-20% of the total baryonic mass. They are generally metal-rich (Z ~ 0.5–1 Z<sub>☉</sub>) and contain dust at roughly 1% of the gas mass, corresponding to a dust-to-gas ratio (DGR) of ~0.01. Their relatively high molecular gas content sustains ongoing star formation.
+    </div>
+
+    <div class="text-justify w-full mb-5">
     In contrast, dwarf irregular galaxies have lower stellar masses but much higher ISM fractions, reaching up to ~50% of the baryonic mass. The Small Magellanic Cloud (SMC), a satellite of the MW, is a well-studied example of this class. Such systems are typically metal-poor (Z &lt; 0.5 Z<sub>☉</sub>), exhibit low molecular gas content, and contain little dust, with DGR values below 0.01.
+    </div>
+    <div class="text-justify w-full mb-5">
+  What draws me to these dwarf systems is that their low metallicity and gas-rich, dust-poor environments make them local analogues of galaxies in the early Universe — giving us a nearby laboratory to study conditions that would otherwise only be observable at extreme cosmological distances. Dwarf galaxies also behave differently from their larger counterparts in several intriguing ways: their star formation proceeds under harsher, more chaotic conditions; their kinematics are often dominated by a much higher dark matter fraction; and their ISM shows physical behavior that isn't yet fully understood. One such puzzle — and the focus of my current research — is the sub-millimetre excess emission observed in these low-metallicity systems.
     </div>
   </div>
 
   <hr>
   <br>
-  <div class="text-xl w-full font-bold mb-5"> My current research - sub-mm excess in low-metallicity systems</div>
+  <div class="text-xl w-full font-bold mb-5"> My research - Dust properties and sub-mm excess in low-metallicity systems</div>
   <div class="text-justify w-full mb-5">
-    Observations have revealed that low-metallicity dwarf galaxies exhibit excess emission at sub-millimetre (sub-mm) wavelengths. This sub-mm excess cannot be explained by current spectral energy distribution (SED) models that include standard dust emission, free-free, and synchrotron components, and its physical origin remains unknown.
-    My work investigates this phenomenon using high-resolution observations from the IRAM 30-m telescope with NIKA-2 at 1.3 and 2 mm, focusing on nearby dwarf galaxies from the SEINFELD survey. By resolving the sub-mm excess on spatial scales comparable to ISM structures, I aim to constrain its origin and assess its connection to dust properties and ISM conditions in low-metallicity environments.
+    This excess emission at sub-millimetre (sub-mm) wavelengths cannot be explained by current spectral energy distribution (SED) models, which include standard dust emission, free-free, and synchrotron components, and its physical origin remains unknown. 
+    My work investigates this phenomenon using high-resolution observations from the IRAM 30m telescope with NIKA-2 at 1.15 and 2 mm, focusing on nearby dwarf galaxies from the <a href="https://irfu.cea.fr/en/Phocea/Vie_des_labos/Ast/ast_visu.php?id_ast=4645" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-500">IMEGIN</a> and SEINFELD survey. By resolving the sub-mm excess on spatial scales comparable to ISM structures, I aim to constrain its origin and assess its connection to dust properties and ISM conditions in low-metallicity environments.
   </div>
 
   
@@ -48,9 +60,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <img src="/submm_excess.png" alt="sub-mm excess" class="w-auto h-auto rounded-lg shadow-md">
   </div>
 
-  <div class="py-2 flex justify-center gap-4">
-      <img src="/IRAM30m.png" alt="IRAM 30m" class="w-auto h-auto rounded-lg shadow-md">
-  </div>
 
   <div class="mt-4 mb-4">
 
